@@ -52,7 +52,7 @@ body {
 }
 
 .navigation-bar .white-timeline .white-box {
-    width: 100%;
+    width: 280px;
     height: 150px;
     background: white;
     border-bottom-right-radius: 75px;
@@ -147,7 +147,7 @@ body {
 }
 
 .landing-page .fashion-display .widget-box .design2 {
-    width: 100%;
+    width: 280px;
     height: 325px;
     border-top-right-radius: 75px;
     background: #22e4ac;
@@ -195,20 +195,23 @@ body {
 
 .landing-page .fashion-display .widget-box .bg2-show {
     background: #e7e7e7;
-    border-top-left-radius: 75px;
-    border-top-right-radius: 75px;
+    width: 280px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
     position: relative;
-    margin-top: -75px;
-    height: 200px;
+    margin-top: -130px;
+    margin-left: 5px;
+    height: 280px;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .landing-page .fashion-display .widget-box .design4 {
-    width: 99%;
-    height: 190px;
-    border-top-left-radius: 75px;
-    border-top-right-radius: 75px;
-    border-bottom-left-radius: 75px;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
     font-size: 15px;
     position: relative;
     border: 2px solid black;
@@ -219,12 +222,10 @@ body {
 }
 
 .landing-page .fashion-display .widget-box .design4 .mbackground {
-    width: 100%;
+    width: 240px;
     background: white;
-    border-top-left-radius: 75px;
-    border-top-right-radius: 75px;
-    border-bottom-left-radius: 75px;
-    height: 170px;
+    border-radius: 50%;
+    height: 240px;
     display: flex;
     align-items: center;
     justify-content: center;
